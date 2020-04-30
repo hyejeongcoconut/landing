@@ -1,0 +1,12 @@
+.greenbtn{
+  width:500px;
+  height:200px;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  font-size: 15px;
+  color: magenta;
+}
+
+.greenbtn:hover{
+  color: green;
+}

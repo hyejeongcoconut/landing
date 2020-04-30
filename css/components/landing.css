@@ -1,0 +1,95 @@
+.banner{
+  background-image: url('../../images/background.png');
+  height: 500px;
+  width: 100%;
+  border: 5px solid black;
+  background-size: cover;
+  background-position: center;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width: 900px;
+  color: white;
+  font-weight: bold;
+  padding: 100px; 
+}
+.middle{
+  width: 100%;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: whitesmoke;
+  color: darkblue;
+  text-align: center;
+}
+.footers{
+  width: 80%;
+  margin: 180px auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  display: inline-block;
+  width: 240px;
+  height: 350px;
+  box-shadow: 10px 10px 12px grey;
+  color: lightcoral;
+  font-size: 13px; 
+  text-align: center;
+}
+
+.apply-pic{
+  height:250px;
+  width: 80%;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.study-pic{
+  height:250px;
+  width: 80%;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.product-pic{
+  height:250px;
+  width: 80%;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+/* .card-apply{
+  width: 80px;
+  height: 200px;
+  box-shadow: 10px 10px 12px grey;
+}
+
+.learn{
+  width: 80px;
+  height: 200px;
+  box-shadow: 10px 10px 12px grey;
+}
+
+.product{
+  width: 80px;
+  height: 200px;
+  box-shadow: 10px 10px 12px grey;
+} */
+
+.bottom-section {
+  width:100%;
+  padding: 80px 0;
+  background-color: coral;
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+li{
+  display: inline-block;
+}
+
+.icons{
+  list-style-type: none;
+}
